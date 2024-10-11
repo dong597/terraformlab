@@ -15,7 +15,7 @@ provider "aws" {
 resource "aws_vpc" "example" {
     cidr_block = "172.17.0.0/16"
     tags = {
-        Name = "terrafom_vpc"
+        Name = "terrafom_vpc1"
     }
 
 }
